@@ -1,0 +1,434 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  min-width: 400px;
+  max-width: auto;
+}
+
+.mainCointainer {}
+
+header {
+  width: auto;
+  height: 75px;
+  background-color: #dc600d;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 30px 10px 30px;
+
+}
+
+.name {
+  font-style: oblique;
+  width: 60%;
+  font-size: 40px;
+  margin: auto;
+}
+
+.work {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  margin-right: 15px;
+  flex-basis: auto;
+}
+
+
+.cara {
+  border-radius: 500px;
+  height: 200px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 450px;
+  background-color: #303030;
+  color: white;
+}
+
+.container-central {
+  margin: 70px 0 70px 0;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  overflow: hidden;
+  height: auto;
+}
+
+.face {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  background-color: #424242;
+  border: 7px solid #0031c2;
+}
+
+
+
+.presentation {
+  display: inline-block;
+  width: 100%;
+  padding: 25px;
+  background-color: #F2F2F2;
+  color: #303030;
+  padding: 10px;
+  border: 10px ridge #fcf400;
+  background-color: #fffdc2;
+}
+
+.greeting {
+  font-size: 35px;
+  font-weight: lighter;
+  margin: 10px 20px 30px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.personalPresentation {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 20px 10px 0;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.aboutMe {
+  font-size: 35px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 30px 0 20px 0;
+}
+
+
+.description {
+  background-color: #F2F2F2;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #303030;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.personalInformation {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 150%;
+  letter-spacing: 2px;
+  line-height: initial;
+  text-align: center;
+}
+
+.itemCourse {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px;
+  margin: 20px;
+  text-decoration: none;
+
+}
+
+.personalAptitudes h2 {
+  font-size: 25px;
+}
+
+.personalAptitudes {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+
+.personalAptitudesOne {
+  font-size: 10px;
+  line-height: 30px;
+}
+
+
+.personalAptitudes p {
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.aptitudes {
+  width: 50%;
+  font-size: 20px;
+  margin: 20px auto;
+}
+
+.aptitudes {
+  padding: 20px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.listCourses {
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+.listCourses li {
+  margin: 10px auto;
+  list-style: circle;
+}
+
+.techList h2 {
+  font-weight: bolder;
+  margin: 10px 0 0 0;
+}
+
+.techList {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.tech {
+  height: 90px;
+}
+
+.proyectSection h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px auto;
+  margin: 10px auto;
+}
+
+.proyectSection {
+  background-color: #303030;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  color: #F2F2F2;
+}
+
+.proyectos {
+  width: 60%;
+  font-size: 10px;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.proyectos p a {
+  font-style: oblique;
+  color: #fff;
+  font-size: 15px;
+}
+
+.proyectos p a:hover {
+  color: #b4ebff;
+  transform: scale(1.3);
+  transition: 0.6s;
+}
+
+.card {
+  text-align: center;
+  width: 30%;
+  border: solid #F2F2F2 1px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card a,
+footer a {
+  color: white;
+}
+
+.red-social {
+  height: 60px;
+  background-color: #F2F2F2;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #424242;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: #F2F2F2;
+  height: min-content;
+}
+
+.contacto {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 30px 0;
+}
+
+.personalContact {
+  margin: 20px auto;
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+@media (max-width: 1280px) {
+
+  .greeting {
+    font-size: 30px;
+  }
+
+  .face {
+    width: 30%;
+  }
+
+  .cara {
+    height: 150px;
+
+  }
+
+  .name,
+  .work {
+    width: auto;
+  }
+
+
+}
+
+@media (max-width: 1000px) {
+  .caja-central {
+    width: 90%;
+    height: 70%;
+    flex-direction: column;
+  }
+
+  .caja-cara {
+    width: 100%;
+    height: 50%;
+  }
+
+  .caja-presentacion {
+    width: 100%;
+    height: 50%;
+    align-items: flex-start;
+  }
+
+  .container-central {
+    flex-direction: column;
+    margin: 0 auto 10px auto;
+  }
+
+  .greeting {
+    font-size: 25px;
+    margin: 5px 5px 15px 0;
+  }
+
+  .presentation {
+    width: auto;
+  }
+
+  .personalPresentation {
+    font-size: 20px;
+  }
+
+  .aptitudes {
+    width: auto;
+    margin: inherit;
+  }
+
+  .dos {
+    height: auto;
+    padding: 0 10px 10px 10px;
+
+  }
+
+  .tres {
+    height: auto;
+  }
+
+  .proyectos {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+
+  .card {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .red-social {
+    margin: 0 10px 0 10px;
+  }
+
+  .name,
+  .work {
+    font-size: 30px;
+  }
+
+  .face {
+    margin: auto;
+  }
+
+  .cara {
+    width: 100%;
+    height: auto;
+  }
+
+  .proyectSection {
+    height: fit-content;
+  }
+
+  .proyectos p a {
+    line-height: 30px;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    flex-direction: column;
+    line-height: 45px;
+    height: fit-content;
+  }
+
+  .work {
+    font-size: 25px;
+  }
+
+  .personalInformation,
+  .personalAptitudes,
+  .techList,
+  .listCourses {
+    width: fit-content;
+    text-align: initial;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .presentation {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+
+  .name {
+    font-size: 25px;
+  }
+
+  .work {
+    font-size: 18px;
+  }
+}
