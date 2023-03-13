@@ -96,16 +96,57 @@ header {
   line-height: 40px;
 }
 
-.aboutMe {
+.description1 {
+  background-color: #bff5ff36;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #3c3c3c;
+  width: 95%;
+  margin: 20px auto;
+
+}
+
+.aboutMeContainer {}
+
+.aboutMeContainer .aboutMe {
   font-size: 35px;
   font-weight: bold;
   font-style: italic;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin: 30px 0 20px 0;
+  text-align: center;
+  margin: 10px auto 25px auto;
 }
 
+.personalInformation {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 150%;
+  letter-spacing: 2px;
+  line-height: initial;
+  text-align: justify;
+  width: 80%;
+  margin: 15px auto 40px auto;
+}
 
-.description {
+.ubicationMap {
+  width: auto;
+}
+
+.ubicationTittle {
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #00289e;
+  text-align: center;
+}
+
+.ubication {
+  width: fit-content;
+  margin: auto 30px;
+}
+
+.description2 {
   background-color: #bff5ff36;
   height: auto;
   display: flex;
@@ -116,13 +157,15 @@ header {
   padding-right: 20%;
 }
 
-.personalInformation {
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 150%;
-  letter-spacing: 2px;
-  line-height: initial;
-  text-align: center;
+.personalAptitudes {
+  background-color: #bff5ff36;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #3c3c3c;
+  width: 65%;
+  margin: 20px auto;
 }
 
 .itemCourse {
